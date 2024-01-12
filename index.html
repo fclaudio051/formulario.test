@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulário ninja</title>
+</head>
+<body>
+    <div class="box">
+        <form action="" method="post">
+            <fieldset>
+                <legend><b>Solicitação de missão</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" nome="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome Completo</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" nome="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+                <div class="inputBox">
+                    <input type="tel" nome="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+
+                <p>Tipo de Missão:</p>
+
+                <input type="radio" id="invasao" name="tMissao" value="invasao" required>
+                <label for="invasao">Invasão</label>
+                <input type="radio" id="resgate" name="tMissao" value="resgate" required>
+                <label for="resgate">Resgate</label>
+                <input type="radio" id="escouta" name="tMissao" value="escouta" required>
+                <label for="escouta">Escouta</label>
+                <input type="radio" id="salvamento" name="tMissao" value="salvamento" required>
+                <label for="salvamento">Salvamento</label>
+                <input type="radio" id="assassinato" name="tMissao" value="assassinato" required>
+                <label for="assassinato">Assassinato</label>
+                <input type="radio" id="akatsuki" name="tMissao" value="akatsuki" required>
+                <label for="akatsuki">Problemas com a Akatsuki</label>
+
+                <div class="inputBox">
+                    <label for="valor"><b>Valor pretendido R$:</b></label>
+                    <input type="text" nome="valor" id="valor" class="inputUser2" required>
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" nome="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelInput">Cidade</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" nome="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Estado</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" nome="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput">Endereço</label>
+                </div>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
