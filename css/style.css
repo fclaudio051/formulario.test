@@ -44,6 +44,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
+    background-image: linear-gradient(rgb(#ff7b00),rgb(#ffffff));
     
     }
 
@@ -111,8 +112,17 @@ legend{
 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
     div.box{
+        padding: 10px;
+        width: 95%;
+    }
+    
+    
+}
+
+@media screen and (max-width:600px) {
+    .box{
         padding: 10px;
         width: 70%;
     }
